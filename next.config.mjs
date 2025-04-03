@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+// next.config.mjs
+export default {
+  reactStrictMode: true,
+  images: {
+    domains: ['cdn.dummyjson.com'],
+  },
+};
 
-export default nextConfig;

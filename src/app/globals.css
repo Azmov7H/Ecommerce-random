@@ -1,21 +1,57 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Mada:wght@200..900&family=Playwrite+AU+TAS+Guides&family=Playwrite+DE+VA+Guides&family=Playwrite+MX+Guides&family=Playwrite+SK+Guides&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --text-color: rgb(86, 83, 83);
+  --logo-color:rgba(255, 68, 0, 0.87);
+  --box-shadow:1px 1px 1px 1px #50505077;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+*{
+  padding: 0;
+  margin: 0;
+}
+button{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  outline: none;
+
+}
+span{
+  color: orangered;
+  font-family: cursive;
+}
+a{
+  
+  text-decoration: none;
+  color: var(--text-color);
+  
+}
+li{
+  list-style: none;
+}
+h3,p{
+  font-family: sans-serif;
 }
 
 body {
   color: var(--foreground);
+  width: 100%;
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Playwrite MX Guides", serif,"Mada";
+  font-weight: 400;
+  font-style: normal;
+}
+.contaner{
+  width: 80%;
+  margin: auto;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }

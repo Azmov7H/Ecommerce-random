@@ -1,0 +1,39 @@
+.prodact{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    gap: 10px;
+    padding: 10px;
+    box-shadow: 1px 1px  5px #505050 ;
+    border-radius: 5px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    width: 250px;
+    gap: 5px;
+    box-shadow: 1px 1px 5px #505050;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.5s ease-in;
+    padding: 5px;
+}
+.card:hover{
+    box-shadow: 2px 2px 8px;
+    transform: scale(1.05);
+}
+.footer_card{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+}

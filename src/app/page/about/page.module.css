@@ -1,0 +1,22 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    height: 70vh;
+    gap: 30px;
+    padding: 10px;
+    box-shadow: 1px 1px  5px #505050 ;
+    border-radius: 5px;
+    
+}
+.about p{
+    text-align: end;
+}
+.img{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 30px;
+}
